@@ -1,7 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
 import CartItems from './Component/CartItems';
-import { IoIosArrowForward } from 'react-icons/io';
 import LoadingCar from '../../Component/LoadingCar';
 import ImptySec from './Component/ImptySec';
 import ShippingAdrees from '../ShappingAdrees/ShippingAdrees';

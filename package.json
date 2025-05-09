@@ -22,7 +22,7 @@
     "react-image-gallery": "^1.4.0",
     "react-loading-skeleton": "^3.5.0",
     "react-redux": "^9.2.0",
-    "react-router-dom": "^7.6.0",
+    "react-router-dom": "^6.30.0",
     "swiper": "^11.2.6",
     "yup": "^1.6.1"
   },

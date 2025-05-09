@@ -1,5 +1,6 @@
 import './App.css'
 // import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Pages/Home/Home'
 import Layout from './Component/Layout'
 import Notfound from './Pages/Notfound'
@@ -17,8 +18,6 @@ import Brand from './Pages/Brands/Brand'
 import Cart from './Pages/Cart/Cart'
 import Wishlist from './Pages/Wishlist/Wishlist'
 import Orders from './Pages/Orders/Orders'
-import { createBrowserRouter } from 'react-router-dom'
-import { RouterProvider } from 'react-router'
 
 function App() {
   const route = createBrowserRouter([
