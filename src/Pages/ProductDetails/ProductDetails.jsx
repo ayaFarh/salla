@@ -4,7 +4,6 @@ import { LiaStarSolid } from 'react-icons/lia';
 import ReactImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
 import { useLocation } from 'react-router-dom';
-import Skeleton from 'react-loading-skeleton';
 
 export default function ProductDetails() {
     const { state } = useLocation();
