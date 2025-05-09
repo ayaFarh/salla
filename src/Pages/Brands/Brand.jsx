@@ -12,7 +12,9 @@ import { Img } from 'react-image';
 export default function Brand() {
   const dispatch = useDispatch();
   const { loading, brands, error } = useSelector(state => state.brands);
-
+ console.log(brands);
+ 
+   
   useEffect(() => {
     dispatch(getAllBrands());
   }, [dispatch]); 
